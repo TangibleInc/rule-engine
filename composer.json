@@ -1,0 +1,31 @@
+{
+  "name": "tangible/rule-engine",
+  "description": "Extensible rule engine: AND-of-OR condition trees built on tangible/ast, with WP filter-driven operand registration.",
+  "type": "library",
+  "license": "GPL-2.0-only",
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../ast",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tangible\\RuleEngine\\": "./src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Team Tangible"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.2",
+    "tangible/ast": "@dev"
+  }
+}
