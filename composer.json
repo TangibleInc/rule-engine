@@ -26,6 +26,11 @@
   "prefer-stable": true,
   "require": {
     "php": ">=8.2",
-    "tangible/ast": "@dev"
+    "tangible/ast": "^0.1.2"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-trunk": "0.1.x-dev"
+    }
   }
 }
